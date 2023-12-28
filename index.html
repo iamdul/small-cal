@@ -13,19 +13,18 @@
           <input type="number" id="inputEl" class="input" />
         </div>
         <div class="bottom">
-          <button>+</button>
-          <button>-</button>
-          <button>*</button>
-          <button>/</button>
-          <button>%</button>
-          <button>=</button>
+          <button onclick="execute('+')">+</button>
+          <button onclick="execute('-')">-</button>
+          <button onclick="execute('*')">*</button>
+          <button onclick="execute('/')">/</button>
+          <button onclick="execute('%')">%</button>
         </div>
         <div>
-          <span>10</span>
-          <span>..</span>
-          <span>20</span>
+          <span id="num1">10</span>
+          <span id="op">..</span>
+          <span id="num2">20</span>
           <span>=</span>
-          <span>?</span>
+          <span id="ans">?</span>
         </div>
       </div>
     </div>
